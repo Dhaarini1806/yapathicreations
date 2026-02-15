@@ -41,7 +41,7 @@ const GlobalCommunity = () => {
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: i * 0.1 }}
-              className="flex flex-col items-center gap-3 p-8 border border-gold/20 rounded-sm bg-maroon-dark/30 min-w-[160px]"
+className="flex flex-col items-center gap-3 p-8 border border-gold/20 rounded-sm bg-silver/30 min-w-[160px]"
             >
               <span className="text-5xl">{country.flag}</span>
               <span className="font-body text-gold-light font-medium tracking-wider text-sm uppercase">
