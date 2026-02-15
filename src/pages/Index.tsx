@@ -6,6 +6,7 @@ import Collections from "@/components/Collections";
 import GlobalCommunity from "@/components/GlobalCommunity";
 import WhyChoose from "@/components/WhyChoose";
 import Founders from "@/components/Founders";
+import Contact from "@/components/Contact";
 import CTASection from "@/components/CTASection";
 import Footer from "@/components/Footer";
 
@@ -20,6 +21,7 @@ const Index = () => {
       <GlobalCommunity />
       <WhyChoose />
       <Founders />
+      <Contact />
       <CTASection />
       <Footer />
     </div>

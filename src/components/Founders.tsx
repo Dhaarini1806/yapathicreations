@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Phone, Instagram, Facebook } from "lucide-react";
+import { Phone, Instagram, Facebook, Mail } from "lucide-react";
 import foundersImg from "@/assets/founders.png";
 
 const Founders = () => {
@@ -52,6 +52,10 @@ const Founders = () => {
                 <h3 className="font-heading text-2xl text-foreground mb-1">Idayavadani</h3>
                 <p className="font-body text-sm tracking-wider uppercase mb-4" style={{ color: 'hsl(25, 90%, 55%)' }}>Founder</p>
                 <div className="space-y-3">
+                  <a href="mailto:idayavadani@gmail.com" className="flex items-center gap-3 text-muted-foreground hover:text-foreground transition-colors font-body text-sm">
+                    <Mail className="w-4 h-4 text-accent" />
+                    idayavadani@gmail.com
+                  </a>
                   <a href="tel:+919003251346" className="flex items-center gap-3 text-muted-foreground hover:text-foreground transition-colors font-body text-sm">
                     <Phone className="w-4 h-4 text-accent" />
                     +91 9003251346
@@ -78,6 +82,10 @@ const Founders = () => {
                 <h3 className="font-heading text-2xl text-foreground mb-1">Dhaarini R</h3>
                 <p className="font-body text-sm tracking-wider uppercase mb-4" style={{ color: 'hsl(175, 70%, 45%)' }}>Co-Founder</p>
                 <div className="space-y-3">
+                  <a href="mailto:dhaarini1806@gmail.com" className="flex items-center gap-3 text-muted-foreground hover:text-foreground transition-colors font-body text-sm">
+                    <Mail className="w-4 h-4 text-accent" />
+                    dhaarini1806@gmail.com
+                  </a>
                   <a href="tel:+917200843784" className="flex items-center gap-3 text-muted-foreground hover:text-foreground transition-colors font-body text-sm">
                     <Phone className="w-4 h-4 text-accent" />
                     +91 7200843784
