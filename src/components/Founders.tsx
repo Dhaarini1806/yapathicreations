@@ -50,7 +50,7 @@ const Founders = () => {
                 className="rounded-lg border border-border bg-card p-6 shadow-sm"
               >
                 <h3 className="font-heading text-2xl text-foreground mb-1">Idayavadani</h3>
-                <p className="font-body text-sm tracking-wider uppercase mb-4" style={{ color: 'hsl(25, 90%, 55%)' }}>Founder</p>
+                <p className="font-body text-sm tracking-wider uppercase mb-4" style={{ color: 'hsl(25, 90%, 55%)' }}>Founder & CEO </p>
                 <div className="space-y-3">
                   <a href="mailto:idayavadani@gmail.com" className="flex items-center gap-3 text-muted-foreground hover:text-foreground transition-colors font-body text-sm">
                     <Mail className="w-4 h-4 text-accent" />
@@ -80,7 +80,7 @@ const Founders = () => {
                 className="rounded-lg border border-border bg-card p-6 shadow-sm"
               >
                 <h3 className="font-heading text-2xl text-foreground mb-1">Dhaarini R</h3>
-                <p className="font-body text-sm tracking-wider uppercase mb-4" style={{ color: 'hsl(175, 70%, 45%)' }}>Co-Founder</p>
+                <p className="font-body text-sm tracking-wider uppercase mb-4" style={{ color: 'hsl(175, 70%, 45%)' }}>Co-Founder & CMO</p>
                 <div className="space-y-3">
                   <a href="mailto:dhaarini1806@gmail.com" className="flex items-center gap-3 text-muted-foreground hover:text-foreground transition-colors font-body text-sm">
                     <Mail className="w-4 h-4 text-accent" />
